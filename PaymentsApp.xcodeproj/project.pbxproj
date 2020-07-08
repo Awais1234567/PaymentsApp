@@ -47,6 +47,7 @@
 		342F724024B5C6A6002808B4 /* PaymentsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342F724424B5C6A6002808B4 /* PaymentsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsAppUITests.swift; sourceTree = "<group>"; };
 		342F724624B5C6A6002808B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		342F725224B5D993002808B4 /* PaymentsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaymentsApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +98,7 @@
 		342F722124B5C6A3002808B4 /* PaymentsApp */ = {
 			isa = PBXGroup;
 			children = (
+				342F725224B5D993002808B4 /* PaymentsApp.entitlements */,
 				342F722224B5C6A3002808B4 /* AppDelegate.swift */,
 				342F722624B5C6A3002808B4 /* ViewController.swift */,
 				342F722824B5C6A3002808B4 /* Main.storyboard */,
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97GS54QT3Z;
 				INFOPLIST_FILE = PaymentsApp/Info.plist;
@@ -448,6 +451,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97GS54QT3Z;
 				INFOPLIST_FILE = PaymentsApp/Info.plist;
