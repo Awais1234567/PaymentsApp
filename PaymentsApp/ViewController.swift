@@ -19,6 +19,12 @@ class ViewController: UIViewController {
         label.numberOfLines = 0
         return label
     }()
+    let image: UIImageView = {
+        let iv = UIImageView()
+        iv.image = UIImage(named: "live_streaming")
+        iv.translatesAutoresizingMaskIntoConstraints = false
+        return iv
+    }()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -27,8 +33,14 @@ class ViewController: UIViewController {
     }
     func setupViews(){
         view.addSubview(label)
+        view.addSubview(image)
         
         NSLayoutConstraint.activate([
+            image.bottomAnchor.constraint(equalTo: label.topAnchor),
+            image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            image.widthAnchor.constraint(equalToConstant: 50),
+            image.heightAnchor.constraint(equalToConstant: 50),
+            
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
         ])
