@@ -19,7 +19,7 @@
                BlueprintIdentifier = "342F723424B5C6A6002808B4"
                BuildableName = "PaymentsAppTests.xctest"
                BlueprintName = "PaymentsAppTests"
-               ReferencedContainer = "container:">
+               ReferencedContainer = "container:PaymentsApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
