@@ -1,0 +1,6 @@
+framework module Pods_PaymentsAppTests {
+  umbrella header "Pods-PaymentsAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
