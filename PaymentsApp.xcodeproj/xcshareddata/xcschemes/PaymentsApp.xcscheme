@@ -17,7 +17,7 @@
                BlueprintIdentifier = "342F721E24B5C6A3002808B4"
                BuildableName = "PaymentsApp.app"
                BlueprintName = "PaymentsApp"
-               ReferencedContainer = "container:">
+               ReferencedContainer = "container:PaymentsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "342F723424B5C6A6002808B4"
                BuildableName = "PaymentsAppTests.xctest"
                BlueprintName = "PaymentsAppTests"
-               ReferencedContainer = "container:">
+               ReferencedContainer = "container:PaymentsApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "342F723F24B5C6A6002808B4"
                BuildableName = "PaymentsAppUITests.xctest"
                BlueprintName = "PaymentsAppUITests"
-               ReferencedContainer = "container:">
+               ReferencedContainer = "container:PaymentsApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -67,7 +67,7 @@
             BlueprintIdentifier = "342F721E24B5C6A3002808B4"
             BuildableName = "PaymentsApp.app"
             BlueprintName = "PaymentsApp"
-            ReferencedContainer = "container:">
+            ReferencedContainer = "container:PaymentsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -84,7 +84,7 @@
             BlueprintIdentifier = "342F721E24B5C6A3002808B4"
             BuildableName = "PaymentsApp.app"
             BlueprintName = "PaymentsApp"
-            ReferencedContainer = "container:">
+            ReferencedContainer = "container:PaymentsApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
