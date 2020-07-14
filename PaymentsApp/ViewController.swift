@@ -34,16 +34,15 @@ class ViewController: UIViewController {
     func setupViews(){
         view.addSubview(label)
         view.addSubview(image)
-        
+
         NSLayoutConstraint.activate([
             image.bottomAnchor.constraint(equalTo: label.topAnchor),
             image.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             image.widthAnchor.constraint(equalToConstant: 50),
             image.heightAnchor.constraint(equalToConstant: 50),
-            
+
             label.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             label.centerYAnchor.constraint(equalTo: view.centerYAnchor),
         ])
     }
 }
-

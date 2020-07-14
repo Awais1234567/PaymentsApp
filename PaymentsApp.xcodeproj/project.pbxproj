@@ -14,6 +14,18 @@
 		342F722F24B5C6A6002808B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342F722D24B5C6A6002808B4 /* LaunchScreen.storyboard */; };
 		342F723A24B5C6A6002808B4 /* PaymentsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F723924B5C6A6002808B4 /* PaymentsAppTests.swift */; };
 		342F724524B5C6A6002808B4 /* PaymentsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342F724424B5C6A6002808B4 /* PaymentsAppUITests.swift */; };
+		345EB00124BC26A600088C8B /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB00024BC26A600088C8B /* LoginController.swift */; };
+		345EB00424BC2FC400088C8B /* ParentTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB00324BC2FC400088C8B /* ParentTextField.swift */; };
+		345EB00824BC349900088C8B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB00724BC349900088C8B /* UIColor+Extension.swift */; };
+		345EB00A24BC4B4D00088C8B /* ParentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB00924BC4B4D00088C8B /* ParentButton.swift */; };
+		345EB01324BD7E0C00088C8B /* NSString+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01024BD7E0B00088C8B /* NSString+Encryption.m */; };
+		345EB01424BD7E0C00088C8B /* NSData+Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01124BD7E0B00088C8B /* NSData+Conversion.m */; };
+		345EB01524BD7E0C00088C8B /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01224BD7E0C00088C8B /* NSData+Encryption.m */; };
+		345EB01724BD7EF100088C8B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01624BD7EF100088C8B /* String+Extension.swift */; };
+		345EB01924BD7FF800088C8B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01824BD7FF800088C8B /* LoginViewModel.swift */; };
+		345EB01B24BD83F200088C8B /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01A24BD83F200088C8B /* Dynamic.swift */; };
+		345EB01D24BD844300088C8B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01C24BD844300088C8B /* ViewModel.swift */; };
+		345EB01F24BD849200088C8B /* ExistingUserMobRegRooted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 345EB01E24BD849200088C8B /* ExistingUserMobRegRooted.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,22 @@
 		342F724424B5C6A6002808B4 /* PaymentsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsAppUITests.swift; sourceTree = "<group>"; };
 		342F724624B5C6A6002808B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342F725224B5D993002808B4 /* PaymentsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PaymentsApp.entitlements; sourceTree = "<group>"; };
+		345EB00024BC26A600088C8B /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		345EB00324BC2FC400088C8B /* ParentTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentTextField.swift; sourceTree = "<group>"; };
+		345EB00724BC349900088C8B /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		345EB00924BC4B4D00088C8B /* ParentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentButton.swift; sourceTree = "<group>"; };
+		345EB00C24BD7E0A00088C8B /* PaymentsApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaymentsApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		345EB00D24BD7E0B00088C8B /* NSData+Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Conversion.h"; sourceTree = "<group>"; };
+		345EB00E24BD7E0B00088C8B /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Encryption.h"; sourceTree = "<group>"; };
+		345EB00F24BD7E0B00088C8B /* NSString+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encryption.h"; sourceTree = "<group>"; };
+		345EB01024BD7E0B00088C8B /* NSString+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encryption.m"; sourceTree = "<group>"; };
+		345EB01124BD7E0B00088C8B /* NSData+Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Conversion.m"; sourceTree = "<group>"; };
+		345EB01224BD7E0C00088C8B /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Encryption.m"; sourceTree = "<group>"; };
+		345EB01624BD7EF100088C8B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		345EB01824BD7FF800088C8B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		345EB01A24BD83F200088C8B /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		345EB01C24BD844300088C8B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		345EB01E24BD849200088C8B /* ExistingUserMobRegRooted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistingUserMobRegRooted.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +126,17 @@
 		342F722124B5C6A3002808B4 /* PaymentsApp */ = {
 			isa = PBXGroup;
 			children = (
-				342F725224B5D993002808B4 /* PaymentsApp.entitlements */,
 				342F722224B5C6A3002808B4 /* AppDelegate.swift */,
-				342F722624B5C6A3002808B4 /* ViewController.swift */,
-				342F722824B5C6A3002808B4 /* Main.storyboard */,
-				342F722B24B5C6A6002808B4 /* Assets.xcassets */,
-				342F722D24B5C6A6002808B4 /* LaunchScreen.storyboard */,
+				342F725224B5D993002808B4 /* PaymentsApp.entitlements */,
 				342F723024B5C6A6002808B4 /* Info.plist */,
+				345EAFFF24BC265B00088C8B /* View */,
+				345EAFFE24BC264E00088C8B /* ViewModel */,
+				345EAFFD24BC264200088C8B /* Model */,
+				345EB00524BC344900088C8B /* Stores */,
+				345EB00624BC347600088C8B /* Helpers */,
+				345EB00224BC276F00088C8B /* UIComponents */,
+				345EB00B24BD7DF600088C8B /* Frameworks */,
+				342F722624B5C6A3002808B4 /* ViewController.swift */,
 			);
 			path = PaymentsApp;
 			sourceTree = "<group>";
@@ -125,6 +157,74 @@
 				342F724624B5C6A6002808B4 /* Info.plist */,
 			);
 			path = PaymentsAppUITests;
+			sourceTree = "<group>";
+		};
+		345EAFFD24BC264200088C8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				345EB01E24BD849200088C8B /* ExistingUserMobRegRooted.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		345EAFFE24BC264E00088C8B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				345EB01C24BD844300088C8B /* ViewModel.swift */,
+				345EB01824BD7FF800088C8B /* LoginViewModel.swift */,
+				345EB01A24BD83F200088C8B /* Dynamic.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		345EAFFF24BC265B00088C8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				345EB00024BC26A600088C8B /* LoginController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		345EB00224BC276F00088C8B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				345EB00324BC2FC400088C8B /* ParentTextField.swift */,
+				345EB00924BC4B4D00088C8B /* ParentButton.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		345EB00524BC344900088C8B /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				342F722B24B5C6A6002808B4 /* Assets.xcassets */,
+				342F722D24B5C6A6002808B4 /* LaunchScreen.storyboard */,
+				342F722824B5C6A3002808B4 /* Main.storyboard */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		345EB00624BC347600088C8B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				345EB00724BC349900088C8B /* UIColor+Extension.swift */,
+				345EB01624BD7EF100088C8B /* String+Extension.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		345EB00B24BD7DF600088C8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				345EB00D24BD7E0B00088C8B /* NSData+Conversion.h */,
+				345EB01124BD7E0B00088C8B /* NSData+Conversion.m */,
+				345EB00E24BD7E0B00088C8B /* NSData+Encryption.h */,
+				345EB01224BD7E0C00088C8B /* NSData+Encryption.m */,
+				345EB00F24BD7E0B00088C8B /* NSString+Encryption.h */,
+				345EB01024BD7E0B00088C8B /* NSString+Encryption.m */,
+				345EB00C24BD7E0A00088C8B /* PaymentsApp-Bridging-Header.h */,
+			);
+			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +295,7 @@
 				TargetAttributes = {
 					342F721E24B5C6A3002808B4 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 					342F723424B5C6A6002808B4 = {
 						CreatedOnToolsVersion = 11.3;
@@ -259,7 +360,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				342F722724B5C6A3002808B4 /* ViewController.swift in Sources */,
+				345EB01524BD7E0C00088C8B /* NSData+Encryption.m in Sources */,
+				345EB01924BD7FF800088C8B /* LoginViewModel.swift in Sources */,
+				345EB01324BD7E0C00088C8B /* NSString+Encryption.m in Sources */,
+				345EB01424BD7E0C00088C8B /* NSData+Conversion.m in Sources */,
+				345EB00124BC26A600088C8B /* LoginController.swift in Sources */,
+				345EB01F24BD849200088C8B /* ExistingUserMobRegRooted.swift in Sources */,
+				345EB01D24BD844300088C8B /* ViewModel.swift in Sources */,
 				342F722324B5C6A3002808B4 /* AppDelegate.swift in Sources */,
+				345EB00A24BC4B4D00088C8B /* ParentButton.swift in Sources */,
+				345EB00424BC2FC400088C8B /* ParentTextField.swift in Sources */,
+				345EB01B24BD83F200088C8B /* Dynamic.swift in Sources */,
+				345EB01724BD7EF100088C8B /* String+Extension.swift in Sources */,
+				345EB00824BC349900088C8B /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97GS54QT3Z;
@@ -442,6 +556,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.paymentsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentsApp/Frameworks/PaymentsApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -451,6 +567,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = PaymentsApp/PaymentsApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97GS54QT3Z;
@@ -461,6 +578,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.o3interfaces.paymentsapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PaymentsApp/Frameworks/PaymentsApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
